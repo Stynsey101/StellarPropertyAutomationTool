@@ -1,0 +1,25 @@
+# Python virtual environment folders
+# This will ignore ANY venv folder, wherever it is
+venv/
+backend/venv/
+
+# Secret files containing credentials
+# This will ignore ANY .env file
+.env
+backend/.env
+
+# The large Chrome session profile folder
+chrome_profile/
+
+# Python specific files to ignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editor-specific settings (for VS Code)
+.vscode/
+
+# Log files and error screenshots
+*.log
+*.png
